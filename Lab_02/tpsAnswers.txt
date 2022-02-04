@@ -1,0 +1,25 @@
+TPS 1
+1. Angelo Fatali (me), Martin Urueta, Seth Dougherty
+2. https://lldb.llvm.org/use/tutorial.html, https://code.visualstudio.com/docs/cpp/lldb-mi, https://www.youtube.com/watch?v=v_C1cvo1biI
+3. DONE
+4. DONE
+
+TPS 2
+1. clang -g -O0 punishment.c -o punish
+2. "lldb punish"
+3. type "run"
+4. breakpoints are points in code that will stop and allow the debugger to execute other commands. "b punishment.c:19"
+5. "s" (steps into our next instruction)
+6. fr v i, fr v repeat, fr v bool (frame variable {variable-name})
+7. "finish"
+8. "quit"
+
+TPS 3
+1. 4, 2 pointers, theyre declared pointers and declared 2 integers
+2. 0, 1, 0 respectively
+3. set them to equal a value (i did 0)
+4. DONE
+5. DONE
+6. DONE
+7. CONFIRMED
+8. Yes, it is the adddress of the start of the entire array.

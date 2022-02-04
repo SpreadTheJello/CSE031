@@ -1,0 +1,10 @@
+Assignment 1
+1. Line 18
+2. "scanf("%d", &input);"
+3. The values is being updated corerectly, however, the sum variable is not being passed by reference and being changed correctly.
+4. we need to pass sum as an alias "&sum" and change the sum in read_values to "*sum"
+
+Assignment 2
+1. Yes
+2. No, it should be HI!hi!, the bug is that its also appending the old str2 "hello!"
+3. The 2 str variables are allocated for 10 memory slots. when we go over this, we create memory bugs and somehow we're getting the overflow duplicated.
