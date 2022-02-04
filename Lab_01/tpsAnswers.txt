@@ -1,0 +1,25 @@
+TPS 1
+1. Kyle Awayan, Maya Chidambaram, Angelo Fatali (me)
+2. https://ubuntu.com/tutorials/command-line-for-beginners#1-overview, https://www.youtube.com/watch?v=GFGImSdJNWk, https://ryanstutorials.net/linuxtutorial/
+3. done.
+4. done.
+
+TPS 2
+1. Since I am runnning MacOS, the terminal runs bash shell, therefore I just need to open terminal and I'm good to go.
+    a. yes
+    b. If something goes wrong in one terminal, you can quickly go to a different one and correct the issue through that one.
+2. type "ls"
+3. I just need to type "cd Desktop/", if I was deeper into directory I could also do "cd .."
+4. "mkdir CSE31"
+
+TPS 3
+1. https://www.geeksforgeeks.org/gcc-command-in-linux-with-examples/, https://www.educba.com/gcc-command-in-linux/
+2. done.
+3. gcc main.c -o main
+4. no errors returned and you will see an exectuable (./main)
+5. compile source files without linking
+6. generates debug information (GDB)
+7. gcc main.c -o cselab1
+8. instead of ./main, its ./a.out
+9. ./main or ./a.out depending on what you named it
+

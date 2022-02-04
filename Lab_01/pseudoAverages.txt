@@ -1,0 +1,58 @@
+include libraries
+
+main{
+    char str[3] = "st"
+    float evensum, oddsum, count1, count2, c, avg1, avg2
+    int c, num, d, sum, input
+    do{
+        ask user for x input
+        c++
+        if(c%10 == 1 and c&100 != 11){
+            str = "st"
+        }
+        if(c%10 == 2 and c&100 != 12){
+            str = "nd"
+        }
+        if(c%10 == 3 and c&100 != 13){
+            str = "rd"
+        }
+        else{
+            str = "th"
+        }
+
+        num = abs(input)
+        while(num!=0){ 
+            d = num % 10
+            sum = sum + d
+            num = num/10
+        }
+
+        if(sum == even){
+            evensum += input
+            count1++
+            sum = 0
+        }
+        else{
+            oddsum += input
+            count2++
+            sum = 0
+        }
+    }while(input != 0)
+
+    print new line
+    average = evensum/count1
+
+    if(average != 0 and != nan){
+        print(average rounded 2 decimals)
+    }
+
+    average2 = oddsum/count2
+    if(average != 0 and != nan){
+        print(average2 rounded 2 decimals)
+    }
+
+    if(both averages == nan){
+        print(no average to compute)
+    }
+    return 0
+}
