@@ -1,0 +1,15 @@
+TPS 1
+1. Static (global variables), Stack (local variables), Heap (dynamic malloc variables)
+2a. 3
+2b. 2, ptr points to num, handle points to ptr.
+2c. num is on the stack, ptr & handle are on heap.
+2d. heap
+3. DONE
+4. DONE
+
+TPS 2
+1. DONE
+2. DONE
+3. head is stored far away from its values pointed by it. 30,34,38 are its address of its values while head is stored somewhere else
+
+ 
