@@ -1,0 +1,23 @@
+TPS 1
+1. MIPS Assembler and Runtime Simulator
+2. DONE
+3. DONE
+4. 
+a. File->Open->{file-name}.asm
+b. Click the assemble button (screwdriver and wrench icon)
+c. Cick the run button (green arrow)
+d. no
+e. Click the run step at a time button (green arrow with a 1)
+f. Click the reset MIPS data button (2 green arrows to the left) and then run button again.
+
+TPS 2
+1. .text: Subsequent items (instructions) stored in Text segment at next available address
+.word: Store the listed value(s) as 32 bit words on word boundary
+.data: Subsequent items stored in Data segment at next available address
+2. beq $t3, $0, finish: Branch if equal : Branch to statement at finish's address if $t3 and $0 are equal
+3. j fib: Jump unconditionally : Jump to statement at fib address
+4. Click "execute" tab and then scroll to line 15 and click the "bkpt" checkbox.
+5. Click the run step at a time button
+6. Under the "registers" tab you can double click any registers value and manually input it
+7. 0x10010000
+8. Whatever "code" thats in register $v0 will have an instruction for syscall to do. 1 will print integer and 10 will exit (terminate execution)
