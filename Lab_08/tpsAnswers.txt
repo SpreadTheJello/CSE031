@@ -1,0 +1,24 @@
+TPS 1
+1. DONE
+2. DONE
+3. DONE
+4. DONE
+5. No we do not.
+6. DONE
+
+TPS 2
+1. DONE
+2. Outputs 29
+3. DONE
+4. Placed in a temporary register ($t0).
+5. Place the value in $a0 before trying to call syscall.
+6. DONE
+7. 12. User input is stored first.
+8. DONE
+9. DONE
+10. Because the value of $a0 is being changed
+11. DONE
+12. We will get an error
+13. DONE
+14. DONE
+15. 10
