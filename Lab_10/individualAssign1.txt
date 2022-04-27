@@ -1,0 +1,5 @@
+1. My CPU has 4 caches L1D, L1I, L2U, and L3U
+2. L1D = 32 KB, L1I = 32 KB, L2 = 256 KB, L3 = 9 MB
+3. 64B for all 4
+4. L1D = 8 associative, L1I = 8 associative, L2 = 4 associative, L3 = 14 associative
+5. tag = 20B index = 6B, offset = 6B
